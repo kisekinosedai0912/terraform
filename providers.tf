@@ -1,0 +1,16 @@
+terraform {
+    required_providers {
+        vercel = {
+            source = "vercel/vercel"
+            version = ">= 4.8"        
+        }
+        cloudflare = {
+            source = "cloudflare/cloudflare"
+            version = "~> 5"
+        }
+    }
+}   
+
+# provider "vercel" {
+#     api_token = var.vercel_api_token
+# }
