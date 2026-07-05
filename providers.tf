@@ -8,9 +8,9 @@ terraform {
             source = "cloudflare/cloudflare"
             version = "~> 5"
         }
+        infisical ={
+            source = "infisical/infisical"
+            version = "0.18.0"
+        }
     }
 }   
-
-# provider "vercel" {
-#     api_token = var.vercel_api_token
-# }
